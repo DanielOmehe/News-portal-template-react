@@ -1,0 +1,15 @@
+.footer{
+    height: 83px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8f8f8;
+
+    .footerText{
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        font-size: 16px;
+        color: #949494;
+    }
+}

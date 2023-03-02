@@ -1,0 +1,113 @@
+.hero {
+  height: 480px;
+  width: 1170px;
+  left: 135px;
+  top: 125px;
+  margin: 0 auto 50px;
+  border-radius: 8px;
+}
+.hero .heroHeading {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #121221;
+}
+.hero .article {
+  height: 344px;
+  width: 270px;
+  font-weight: 400;
+  line-height: 34px;
+  padding-top: 15px;
+  padding-right: 16px;
+}
+.hero .article .articleText {
+  color: #444;
+}
+.hero .article .text {
+  font-size: 40px;
+  color: #121221;
+  font-weight: 200;
+}
+.hero .content {
+  width: 100%;
+  display: flex;
+  margin-top: 24px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero .content .carousel {
+  height: 400px;
+  width: 870px;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+.hero .content .carousel .button {
+  width: 50px;
+  height: 50px;
+  background: white;
+  border: none;
+  border-radius: 50px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  position: absolute;
+}
+.hero .content .carousel .chevron-left {
+  top: 40%;
+  left: 10px;
+}
+.hero .content .carousel .chevron-right {
+  top: 40%;
+  right: 10px;
+}
+.hero .content .carousel .button img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.hero .content .carousel .carousel-item {
+  width: 870px;
+  height: 100%;
+  position: absolute;
+  margin-right: 0px;
+  transition: transform 0.3s linear;
+}
+.hero .content .carousel .carousel-item .bannerImage {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.hero .content .carousel .carousel-item .bannerText {
+  width: 543px;
+  position: absolute;
+  top: 250px;
+  left: 32px;
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  padding-right: 5rem;
+}
+.hero .content .carousel .carousel-item .bannerText .newsHeadline {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 48px;
+}
+.hero .content .carousel .carousel-item .bannerText .newsInfo {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+.hero .content .carousel .carousel-item .bannerText .newsInfo .timePosted {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Roboto", "san-serif";
+}
+.hero .content .carousel .carousel-item .bannerText .newsInfo .credits {
+  margin-left: 27px;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Roboto", "san-serif";
+}/*# sourceMappingURL=hero.css.map */

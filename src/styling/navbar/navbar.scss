@@ -1,0 +1,141 @@
+.navbar{
+    height: 45px;
+    width: 1179.9693603515625px;
+    left: 125px;
+    top: 32.00006103515625px;
+    margin: 32px auto 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo{
+        height: 37px;
+        width: 100px;
+        left: 8px;
+        top: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .news{
+            height: 37px;
+            width: 56px;
+            left: 125px;
+            top: 32px;
+            border-radius: 4px;
+            padding: 8px;
+            color: #fff;
+            background: #000;
+        }
+    }
+
+    .controls{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 50%;
+        height: 100%;
+
+        .searchbox{
+            width: 300px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            border-radius: 50px;
+            padding: 0 15px;
+            box-shadow: 0 0 2px rgba(0,0,0,0.5);
+            transition: width 0.2s linear;
+    
+            .searchInput{
+                height: 100%;
+                width: 270px;
+                border: none;
+                outline: none;
+                background: transparent;
+                padding-left: 20px;
+                font-weight: 200;
+                transition: width 0.2s linear;
+                font-size: 16px;
+            }
+            
+            .openInput{
+                height: 100%;
+                width: 470px;
+                border: none;
+                outline: none;
+                background: transparent;
+                padding-left: 20px;
+                font-weight: 200;
+                transition: width 0.2s linear;
+                font-size: 16px;
+            }
+    
+            .searchbutton{
+                height: 24.172412458621228px;
+                width: 16.55172319695393px;
+                border: none;
+                outline: none;
+                background: transparent;
+                margin-left: 5px;
+                cursor: pointer;
+            }
+        }
+
+        .searchopen{
+            width: 500px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            border-radius: 50px;
+            padding: 0 15px;
+            box-shadow: 0 0 2px rgba(0,0,0,0.5);
+            transition: width 0.2s linear;
+    
+            .searchInput{
+                height: 100%;
+                width: 270px;
+                border: none;
+                outline: none;
+                background: transparent;
+                padding-left: 20px;
+                font-weight: 200;
+                transition: width 0.2s linear;
+                font-size: 16px;
+            }
+            
+            .openInput{
+                height: 100%;
+                width: 470px;
+                border: none;
+                outline: none;
+                background: transparent;
+                padding-left: 20px;
+                font-weight: 200;
+                transition: width 0.2s linear;
+                font-size: 16px;
+            }
+    
+            .searchbutton{
+                height: 24.172412458621228px;
+                width: 16.55172319695393px;
+                border: none;
+                outline: none;
+                background: transparent;
+                margin-left: 5px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .menubutton{
+        height: 20.72418212890625px;
+        width: 22.969388961791992px;
+        background: transparent;
+        border: none;
+        outline: none;
+        margin-left: 37.59px;
+        cursor: pointer;
+    }
+}

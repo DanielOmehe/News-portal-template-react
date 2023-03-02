@@ -1,0 +1,49 @@
+.bars {
+  width: 35px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bars .bar {
+  width: 5px;
+  height: 20px;
+  background: #000;
+  transition: height 0.3s linear;
+}
+.bars .bar:nth-child(1) {
+  background: red;
+  animation: grow 1s infinite 1s;
+}
+.bars .bar:nth-child(2) {
+  background: orangered;
+  animation: grow1 1s infinite;
+}
+.bars .bar:nth-child(3) {
+  background: orange;
+  animation: grow2 1s infinite 1s;
+}
+@keyframes grow {
+  from {
+    height: 20px;
+  }
+  to {
+    height: 40px;
+  }
+}
+@keyframes grow1 {
+  from {
+    height: 20px;
+  }
+  to {
+    height: 40px;
+  }
+}
+@keyframes grow2 {
+  from {
+    height: 20px;
+  }
+  to {
+    height: 40px;
+  }
+}/*# sourceMappingURL=loader.css.map */
